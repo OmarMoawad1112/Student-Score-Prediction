@@ -60,20 +60,19 @@ Target variable:
 ---
 
 ## 📊 Results & Insights
-- **Strong predictors:** study hours, attendance, and previous scores  
-- **Preprocessing helped:** log transformations and clipping outliers improved model generalization  
-- **Performance:** final models achieved **R² between 0.75 – 0.90** depending on preprocessing and model type  
-- Scatterplots showed a strong alignment between predicted and actual scores  
 
----
+- **Study hours** and **attendance**  were the strongest predictors of exam performance.
 
-## 🚀 Tech Stack
-- **Python** (3.9+)  
-- **Libraries:**  
-  - pandas, numpy  
-  - matplotlib, seaborn  
-  - scikit-learn  
+- Outliers were handled with the **IQR method**: numeric features (Hours_Studied, Attendance, Previous_Scores, Tutoring_Sessions) and the target (Exam_Score) were clipped to reduce noise and improve model stability.
 
+- **Hypothesis testing (ANOVA & t-test)** showed that **Gender** and **School_Type** had no statistically significant effect on exam scores (p-value > 0.05).
+
+- **Linear Regression** performed well with an **R² ≈ 0.86** on the test set, showing strong predictive power.
+
+- **Polynomial Regression** (degree 2) achieved an **R² ≈ 0.85** on the test set, which is very close to the linear model’s performance, confirming that the relationship between predictors and target is mostly linear.
+
+Future improvements could include using Ridge/Lasso regularization, adding interaction terms, or testing tree-based models like Random Forest or Gradient Boosting.
+  
 ---
 
 ## ▶️ How to Run
