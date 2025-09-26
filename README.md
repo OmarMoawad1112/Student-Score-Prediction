@@ -49,7 +49,6 @@ Target variable:
 4. **Model Training**
    - Linear Regression
    - Polynomial Regression
-   - Regularization techniques (Ridge/Lasso, if tested)
    - Cross-validation for robust performance estimates
 
 5. **Evaluation**
