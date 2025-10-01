@@ -76,60 +76,66 @@ Future improvements could include using Ridge/Lasso regularization, adding inter
 
 Here’s the full cleaned-up README run section in Markdown — ready to paste into your file ✅
 
-## ▶ How to Run the Project
 
-### 1. Clone the Repository
-bash
-git clone https://github.com/AbdooMatrix/Student-Score-Prediction.git
+Perfect 👍 now that I have your full context (project description, imports, libraries, goals), here’s a ready-to-use "How to Run" section you can drop into your GitHub README:
+
+## ▶️ How to Run the Project
+
+Follow these steps to set up and run the project on your local machine:
+
+### 1. Prerequisites
+- Python **3.8+** installed  
+- `git` installed  
+- Recommended: create and use a virtual environment to avoid dependency conflicts  
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com/your-username/student-score-prediction.git
 cd student-score-prediction
-`
+```
 
-### 2. Create a Virtual Environment (recommended)
-
-bash
+3. Create a Virtual Environment
+```bash
 python -m venv venv
+```
 
+Activate the environment:
 
-Activate it:
+Windows: ```bash venv\Scripts\activate```
 
-* *Windows*:
+Mac/Linux: ```bash source venv/bin/activate ```
 
-  bash
-  venv\Scripts\activate
-  
+4. Install Dependencies
 
-* *Mac/Linux*:
+Install all required libraries:
 
-  bash
-  source venv/bin/activate
-  
-
-### 3. Install Dependencies
-
-bash
 pip install -r requirements.txt
 
+5. Run the Project
 
-### 4. Run the Project
+Run the main script:
 
-bash
 python main.py
 
 
 This will:
 
-* Load & preprocess the dataset
-* Perform EDA
-* Train Linear & Polynomial Regression models
-* Print evaluation metrics
-* Show visualizations (distributions, heatmaps, predicted vs actual scores)
+Load and clean the dataset
 
-### 5. (Optional) Run Jupyter Notebook
+Perform Exploratory Data Analysis (EDA)
 
-If you prefer an interactive exploration:
+Train Linear & Polynomial Regression models
 
-bash
+Print evaluation metrics (R², RMSE, MAE)
+
+Display visualizations (predicted vs. actual scores, histograms, heatmaps, etc.)
+
+6. (Optional) Run in Jupyter Notebook
+
+If you prefer running interactively:
+
 jupyter notebook
 
 
-Then open Student_Score_Prediction.ipynb from your browser.
+Then open Student_Score_Prediction.ipynb in your browser.
+
