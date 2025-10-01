@@ -90,11 +90,11 @@ Follow these steps to set up and run the project on your local machine:
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/your-username/student-score-prediction.git
+git clone https://github.com/OmarMoawad1112/Student-Score-Prediction.git
 cd student-score-prediction
 ```
 
-3. Create a Virtual Environment
+### 3. Create a Virtual Environment
 ```bash
 python -m venv venv
 ```
@@ -111,14 +111,14 @@ Mac/Linux:
 source venv/bin/activate
 ```
 
-4. Install Dependencies
+### 4. Install Dependencies
 
 Install all required libraries:
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Run the Project
+### 5. Run the Project
 
 Run the main script:
 ```bash
