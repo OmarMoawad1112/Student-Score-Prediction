@@ -84,17 +84,20 @@ Perfect 👍 now that I have your full context (project description, imports, li
 Follow these steps to set up and run the project on your local machine:
 
 ### 1. Prerequisites
+
 - Python **3.8+** installed  
 - `git` installed  
 - Recommended: create and use a virtual environment to avoid dependency conflicts  
 
 ### 2. Clone the Repository
+
 ```bash
 git clone https://github.com/OmarMoawad1112/Student-Score-Prediction.git
 cd Student-Score-Prediction
 ```
 
 ### 3. Create a Virtual Environment
+
 ```bash
 python -m venv venv
 ```
