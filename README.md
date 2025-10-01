@@ -102,7 +102,7 @@ cd Student-Score-Prediction
 python -m venv venv
 ```
 
-## Activate the environment:
+Activate the environment:
 
 Windows: 
 ```bash 
