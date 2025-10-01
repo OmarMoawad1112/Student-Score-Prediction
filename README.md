@@ -74,8 +74,30 @@ Future improvements could include using Ridge/Lasso regularization, adding inter
   
 ---
 
-## ▶️ How to Run
-1. Clone this repo:  
-   ```bash
-   git clone https://github.com/your-username/student-score-prediction.git
-   cd student-score-prediction
+## ▶️ How to Run the Project
+
+Follow these steps to set up and run the project on your local machine:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/student-score-prediction.git
+cd student-score-prediction
+
+### 2. Create virtual environment
+
+python -m venv venv
+
+# Activate the environment
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+
+### 3. Install Dependencies
+pip install -r requirements.txt
+
+### 4. Run the Project
+python main.py
+
+
+
