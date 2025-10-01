@@ -74,6 +74,8 @@ Future improvements could include using Ridge/Lasso regularization, adding inter
   
 ---
 
+Here’s the full cleaned-up README run section in Markdown — ready to paste into your file ✅
+
 ## ▶️ How to Run the Project
 
 Follow these steps to set up and run the project on your local machine:
@@ -83,23 +85,48 @@ Follow these steps to set up and run the project on your local machine:
 git clone https://github.com/your-username/student-score-prediction.git
 cd student-score-prediction
 
-### 2. Create virtual environment
-```bash
+2. Create a Virtual Environment (recommended)
 python -m venv venv
 
-# Activate the environment
-# On Windows:
+
+Activate the environment:
+
+Windows:
+
 venv\Scripts\activate
-# On Mac/Linux:
+
+
+Mac/Linux:
+
 source venv/bin/activate
 
-### 3. Install Dependencies
-```bash
+3. Install Dependencies
 pip install -r requirements.txt
 
-### 4. Run the Project
-```bash
+4. Run the Project
 python main.py
 
 
+This will:
 
+Load and clean the dataset
+
+Perform Exploratory Data Analysis (EDA)
+
+Train Linear & Polynomial Regression models
+
+Print evaluation metrics (R², RMSE, MAE)
+
+Display plots (predicted vs. actual scores, distributions, heatmaps, etc.)
+
+5. (Optional) Run Jupyter Notebook
+
+If you want to explore the project step by step in an interactive environment:
+
+jupyter notebook
+
+
+Then open Student_Score_Prediction.ipynb from your browser.
+
+
+---
