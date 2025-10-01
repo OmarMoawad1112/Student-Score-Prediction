@@ -76,57 +76,60 @@ Future improvements could include using Ridge/Lasso regularization, adding inter
 
 Here’s the full cleaned-up README run section in Markdown — ready to paste into your file ✅
 
-## ▶️ How to Run the Project
-
-Follow these steps to set up and run the project on your local machine:
+## ▶ How to Run the Project
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/student-score-prediction.git
+bash
+git clone https://github.com/AbdooMatrix/Student-Score-Prediction.git
 cd student-score-prediction
+`
 
-2. Create a Virtual Environment (recommended)
+### 2. Create a Virtual Environment (recommended)
+
+bash
 python -m venv venv
 
 
-Activate the environment:
+Activate it:
 
-Windows:
+* *Windows*:
 
-venv\Scripts\activate
+  bash
+  venv\Scripts\activate
+  
 
+* *Mac/Linux*:
 
-Mac/Linux:
+  bash
+  source venv/bin/activate
+  
 
-source venv/bin/activate
+### 3. Install Dependencies
 
-3. Install Dependencies
+bash
 pip install -r requirements.txt
 
-4. Run the Project
+
+### 4. Run the Project
+
+bash
 python main.py
 
 
 This will:
 
-Load and clean the dataset
+* Load & preprocess the dataset
+* Perform EDA
+* Train Linear & Polynomial Regression models
+* Print evaluation metrics
+* Show visualizations (distributions, heatmaps, predicted vs actual scores)
 
-Perform Exploratory Data Analysis (EDA)
+### 5. (Optional) Run Jupyter Notebook
 
-Train Linear & Polynomial Regression models
+If you prefer an interactive exploration:
 
-Print evaluation metrics (R², RMSE, MAE)
-
-Display plots (predicted vs. actual scores, distributions, heatmaps, etc.)
-
-5. (Optional) Run Jupyter Notebook
-
-If you want to explore the project step by step in an interactive environment:
-
+bash
 jupyter notebook
 
 
 Then open Student_Score_Prediction.ipynb from your browser.
-
-
----
