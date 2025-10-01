@@ -101,22 +101,29 @@ python -m venv venv
 
 Activate the environment:
 
-Windows: ```bash venv\Scripts\activate```
+Windows: 
+```bash 
+venv\Scripts\activate
+```
 
-Mac/Linux: ```bash source venv/bin/activate ```
+Mac/Linux: 
+```bash 
+source venv/bin/activate
+```
 
 4. Install Dependencies
 
 Install all required libraries:
-
+```bash
 pip install -r requirements.txt
+```
 
 5. Run the Project
 
 Run the main script:
-
+```bash
 python main.py
-
+```
 
 This will:
 
