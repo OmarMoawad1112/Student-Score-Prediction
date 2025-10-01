@@ -91,7 +91,7 @@ Follow these steps to set up and run the project on your local machine:
 ### 2. Clone the Repository
 ```bash
 git clone https://github.com/OmarMoawad1112/Student-Score-Prediction.git
-cd student-score-prediction
+cd Student-Score-Prediction
 ```
 
 ### 3. Create a Virtual Environment
@@ -99,7 +99,7 @@ cd student-score-prediction
 python -m venv venv
 ```
 
-Activate the environment:
+## Activate the environment:
 
 Windows: 
 ```bash 
@@ -124,25 +124,3 @@ Run the main script:
 ```bash
 python main.py
 ```
-
-This will:
-
-Load and clean the dataset
-
-Perform Exploratory Data Analysis (EDA)
-
-Train Linear & Polynomial Regression models
-
-Print evaluation metrics (R², RMSE, MAE)
-
-Display visualizations (predicted vs. actual scores, histograms, heatmaps, etc.)
-
-6. (Optional) Run in Jupyter Notebook
-
-If you prefer running interactively:
-
-jupyter notebook
-
-
-Then open Student_Score_Prediction.ipynb in your browser.
-
