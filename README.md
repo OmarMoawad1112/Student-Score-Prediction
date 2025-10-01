@@ -74,11 +74,6 @@ Future improvements could include using Ridge/Lasso regularization, adding inter
   
 ---
 
-Here’s the full cleaned-up README run section in Markdown — ready to paste into your file ✅
-
-
-Perfect 👍 now that I have your full context (project description, imports, libraries, goals), here’s a ready-to-use "How to Run" section you can drop into your GitHub README:
-
 ## ▶️ How to Run the Project
 
 Follow these steps to set up and run the project on your local machine:
@@ -127,3 +122,5 @@ Run the main script:
 ```bash
 python main.py
 ```
+
+Here’s the full cleaned-up README run section in Markdown — ready to paste into your file ✅
