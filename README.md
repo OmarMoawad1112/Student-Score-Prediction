@@ -84,7 +84,7 @@ git clone https://github.com/your-username/student-score-prediction.git
 cd student-score-prediction
 
 ### 2. Create virtual environment
-
+```bash
 python -m venv venv
 
 # Activate the environment
@@ -94,9 +94,11 @@ venv\Scripts\activate
 source venv/bin/activate
 
 ### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
 
 ### 4. Run the Project
+```bash
 python main.py
 
 
